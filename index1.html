@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="img">
+            <img id="profile" src="pic1.png" alt="profile">
+        </div>
+
+        <h2 id="title">Future Web Developer</h2>
+        <p id="subtitle"> Computer Science</p>
+
+        <div class="input-group">
+            <input type="text" id="nickname" placeholder="Type your nickname">
+        </div>
+
+        <div class="input-group">
+            <select id="year">
+                <option value="">Select Year</option>
+                <option value="1st year">1st Year</option>
+                <option value="2nd year">2nd Year</option>
+                <option value="3rd year">3rd Year</option>
+                <option value="4th year">4th Year</option>
+            </select>
+        </div>
+
+        <div class="btn-group">
+            <button id="clickbtn">Click</button>
+            <button id="dblclickbtn">Double Click</button>
+            <button id="pressHoldbtn">Press & Hold</button>
+        </div>
+
+        <button id="changeImgBtn" class="changebtn">Change Image</button>
+
+        <div class="output-box">
+            <p id="output">Waiting for interaction...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
